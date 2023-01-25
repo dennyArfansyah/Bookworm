@@ -19,6 +19,7 @@
 		37E73178298105110080289F /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E73177298105110080289F /* AddBookView.swift */; };
 		37E7317A29810AD10080289F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7317929810AD10080289F /* RatingView.swift */; };
 		37E7317C29810FF00080289F /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7317B29810FF00080289F /* EmojiRatingView.swift */; };
+		37E7317F29813C4B0080289F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7317E29813C4B0080289F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		37E73177298105110080289F /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		37E7317929810AD10080289F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		37E7317B29810FF00080289F /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		37E7317E29813C4B0080289F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		37E7315B298052E50080289F /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				37E7317D29813C3F0080289F /* Day3 */,
 				37E73176298104A20080289F /* Day2 */,
 				37E7316A298056960080289F /* Day1 */,
 				37E7315C298052E50080289F /* BookwormApp.swift */,
@@ -105,6 +108,14 @@
 				37E7317B29810FF00080289F /* EmojiRatingView.swift */,
 			);
 			path = Day2;
+			sourceTree = "<group>";
+		};
+		37E7317D29813C3F0080289F /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				37E7317E29813C4B0080289F /* DetailView.swift */,
+			);
+			path = Day3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 				37E7315F298052E50080289F /* ContentView.swift in Sources */,
 				37E7317329805ACC0080289F /* Bookworm.xcdatamodeld in Sources */,
 				37E7317A29810AD10080289F /* RatingView.swift in Sources */,
+				37E7317F29813C4B0080289F /* DetailView.swift in Sources */,
 				37E73178298105110080289F /* AddBookView.swift in Sources */,
 				37E7315D298052E50080289F /* BookwormApp.swift in Sources */,
 				37E7316E298058CD0080289F /* TextEditorView.swift in Sources */,
