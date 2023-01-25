@@ -11,6 +11,8 @@ import SwiftUI
 struct CoreDataView: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(sortDescriptors: []) var students: FetchedResults<Student>
+    @FetchRequest(sortDescriptors: []) var books: FetchedResults<Book>
+
     
     var body: some View {
         VStack {
